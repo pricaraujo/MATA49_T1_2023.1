@@ -1,7 +1,7 @@
 
 Os arquivos devem ser nomeados como:
-### questaox.asm /
+### questaox.asm 
 x-número da questões
 
 
-Na parte superior deve conter o nome dos membros em forma de comentários
+Na parte superior deve conter o nome dos membros em forma de comentários.
