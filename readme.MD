@@ -1,6 +1,6 @@
 
 Os arquivos devem ser nomeados como:
-	- questaox.asm
+### questaox.asm /
 x-número da questões
 
 
