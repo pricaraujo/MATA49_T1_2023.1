@@ -5,8 +5,7 @@ section .data
 
 
 	n1	dq 0.0
-	n3 	dq 0.0
-	n5	dq 4.0
+	n2	dq 4.0
 	
 	str1   	db  "Digite a %d° altura",10,0
 	str2    db  "A média das alturas é %.2f",10,0
@@ -25,7 +24,7 @@ section .text
 	mov  	rbp, rsp
 	
 	;Inicialização do registrador XMM6, que armazenará a soma das alturas
-	movq 	xmm6, [n3]
+	movq 	xmm6, [n1]
 
 
 	;Inicialização dos registradores que controlarão o loop
@@ -62,7 +61,7 @@ section .text
 	.end:
 
 	;Calcula a média das alturas
-	movq 	xmm1, [n5]
+	movq 	xmm1, [n2]
 	movq 	xmm0, xmm6
 	divsd 	xmm0, xmm1
 	
