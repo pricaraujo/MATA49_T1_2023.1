@@ -57,7 +57,6 @@ global main
         ; prólogo
         push rbp 
         mov rbp, rsp
-        sub rsp, 24
 
         xor rdi, rdi 
         xor rsi, rsi
@@ -98,7 +97,6 @@ global main
         ; Finaliza a execução do programa.
         finalizar:
             ; epílogo
-            add rsp, 24
             leave
             mov rax, 60
             xor rdi, rdi
