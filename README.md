@@ -8,7 +8,7 @@
 
 ## Sobre 🤔:
 
-Este repositório dedicado a armazenar e compartilhar uma coleção de códigos em assembly desenvolvidos por alunos da disciplina MATA49 na [UFBA](https://www.ufba.br/) . Essa disciplina, lecionada no primeiro semestre de 2023, tem como foco a resolução de problemas simples utilizando a linguagem assembly.  
+Este repositório dedicado a armazenar e compartilhar uma coleção de códigos em assembly desenvolvidos por alunos da disciplina MATA49 na [UFBA](https://www.ufba.br/). Essa disciplina, lecionada no primeiro semestre de 2023, tem como foco a resolução de problemas simples utilizando a linguagem assembly.  
 
 Aqui, os alunos têm a oportunidade de contribuir com seus códigos, que são utilizados como parte da avaliação da disciplina de programação de software básico. Os códigos desenvolvidos pelos alunos podem envolver desde conceitos iniciais até desafios mais avançados de programação em assembly. Essa iniciativa promove o aprendizado conjunto e o desenvolvimento de habilidades em programação de baixo nível.
 
@@ -20,37 +20,35 @@ Os códigos presentes neste repositório abordam uma variedade de problemas bás
 
 Os arquivos devem ser nomeados como:
 ### questaox.asm 
-x-número da questões
+x - número da questões
 Na parte superior deve conter o nome dos membros em forma de comentários.
+Adicionem seus códigos na pasta _src_.
 
-Feel free to create a new branch, fork the project, , create a new Issue or make a pull request contact one of us to develop at <app_name>.
+Sinta-se à vontade para criar uma nova branch, fazer um fork do projeto, criar uma nova issue ou fazer uma solicitação de pull request.
 
 ## Recursos 🧑‍🔬:
 
-- 
-- 
-- 
+Cada código desenvolvido tem um objetivo especifico, descrito no arquivo disponibilizado em sala de aula, desde a cálculo de médias até inverter os valores de um vetor.
 
 ## Dependencias 🚚:
 
-The project dependencies are described in a dependencies file within the repository. In summary, heres what you're gonna need in order to run the project:
+O projeto não tem nenhuma dependencia prévia, caso já tenhas as ferramentas para executar os códigos.
 
-- 
-- 
-
-For installing dependencies more quickly, you can run the following command at terminal, inside the clonned repository:
-
-    sudo command_for_installing_deppendecies
 
 ## Como executar um código 🏃:
 
-First, clone this repository. After that, simply execute the ```file_name``` file with the command:
+Primeiro, clone este repositório. Em seguida, execute o arquivo ```codigo.asm``` com o seguinte comando:
 
-    sudo command_for_running_project
+	nasm codigo.asm -f elf64
+
+Para codigod que usam funçoes em C, use os seguintes comandos: 	
+
+	gcc -o cod codigo.o codigo.o -no-pie
+	./cod
 
 ## Processo de Desenvolvimento ⚙️:
 
-Developers used [Trello]() to get things organized, each one using their own branch to code, using names to identify the commit type then merginng the features into develop branch. After testing, the group update the main branch. This application was developed in xx/xx/20xx until xx/xx/20xx.
+O desenvolvimento ocorre em equipes, seguindo um cronograma determinado em sala de aula. Os códigos são postados no repositório do GitHub, seguindo um padrão de nome. A estrutura do repositório organiza os códigos por problemas específicos. Os alunos realizam commits regulares e enviam pull requests quando finalizam seus trabalhos.
 
 ### Ferramentas Utilizadas 🛠️: 
 
