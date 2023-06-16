@@ -16,7 +16,7 @@ Este projeto tem como objetivo criar um ambiente colaborativo onde os alunos pod
 
 Os códigos presentes neste repositório abordam uma variedade de problemas básicos, incluindo manipulação de dados, operações aritméticas, controle de fluxo, interação com a memória e entrada/saída. Além disso, os alunos apresentam suas soluções em equipes de acordo com [esse](https://docs.google.com/spreadsheets/d/1ITKwMUDB739c5Pux2MFQANEtisxlyxqnpVivWq9hsFM/edit#gid=0) cronograma.
 
-Não se esqueça de checar os perfis dos [alunos](#desenvolvido-por-💻:) que fizeram esse projeto!!!
+Não se esqueça de checar os perfis dos [alunos](#desenvolvido-por:) que fizeram esse projeto!!!
 
 
 ## Como contribuir 🫂:
@@ -62,7 +62,7 @@ O desenvolvimento ocorre em equipes, seguindo um cronograma determinado em sala 
 ## Um obrigado especial para 🥰:
 - ["mirmir" - Mirlei Moura](https://github.com/mirleims), nossa professora, que nos ajudou, orientaou e avaliou a construção desse projeto.
 
-## Desenvolvido por 💻:
+## Desenvolvido por:
 - [Fernando Schettini](https://github.com/FernandoSchett).
 - [Gabriel Sizinio](https://github.com/gabsizinio).
 - [Caio Gomes de Mello](https://github.com/caiogmello).
