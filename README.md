@@ -1,3 +1,5 @@
+### Esse template de READ.me foi escrito com base nesse [repositório](https://github.com/FernandoSchett/github_readme_template).
+
 <h1 align="center">🤖 Assembly para Leigos 🤖</h1>
 
 <div align="center">
@@ -5,8 +7,6 @@
 	<img height = "250em" src = "https://github.com/FernandoSchett/github_readme_template/assets/80331486/5d7492a2-715c-4af3-9823-91f534542bef" />
     </a>
 </div>
-
-### Esse template foi escrito com base nesse [repositório](https://github.com/FernandoSchett/github_readme_template).
 
 ## Sobre 🤔:
 
