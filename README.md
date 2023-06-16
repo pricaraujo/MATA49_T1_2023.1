@@ -62,7 +62,7 @@ O desenvolvimento ocorre em equipes, seguindo um cronograma determinado em sala 
 ## Um obrigado especial para 🥰:
 - ["mirmir" - Mirlei Moura](https://github.com/mirleims), nossa professora, que nos ajudou, orientaou e avaliou a construção desse projeto.
 
-## Desenvolvido por 💻:
+## Desenvolvido por: 💻
 - [Fernando Schettini](https://github.com/FernandoSchett).
 - [Gabriel Sizinio](https://github.com/gabsizinio).
 - [Caio Gomes de Mello](https://github.com/caiogmello).
