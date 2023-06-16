@@ -1,4 +1,4 @@
-### Esse template de READ.me foi escrito com base nesse [repositório](https://github.com/FernandoSchett/github_readme_template).
+### Esse template de READ.md foi escrito com base nesse [repositório](https://github.com/FernandoSchett/github_readme_template).
 
 <h1 align="center">🤖 Assembly para Leigos 🤖</h1>
 
@@ -46,7 +46,7 @@ Primeiro, clone este repositório. Em seguida, execute o arquivo ```codigo.asm``
 
 	nasm codigo.asm -f elf64
 
-Para codigod que usam funçoes em C, use os seguintes comandos: 	
+Para codigos que usam funções em C, use os seguintes comandos: 	
 
 	gcc -o cod codigo.o codigo.o -no-pie
 	./cod
@@ -62,7 +62,7 @@ O desenvolvimento ocorre em equipes, seguindo um cronograma determinado em sala 
 - [GCC](https://gcc.gnu.org/).
 
 ## Um obrigado especial para 🥰:
-- ["mirmir" - Mirlei Moura](https://github.com/mirleims), nossa professora, que nos ajudou, orientaou e avaliou a construção desse projeto.
+- ["mirmir" - Mirlei Moura](https://github.com/mirleims), nossa professora, que nos ajudou, orientou e avaliou a construção desse projeto.
 
 ## Desenvolvido por:
 - [Fernando Schettini](https://github.com/FernandoSchett).
