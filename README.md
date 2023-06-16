@@ -6,6 +6,8 @@
     </a>
 </div>
 
+## Esse template foi escrito com base nesse [repositório](https://github.com/FernandoSchett/github_readme_template).
+
 ## Sobre 🤔:
 
 Este repositório dedicado a armazenar e compartilhar uma coleção de códigos em assembly desenvolvidos por alunos da disciplina MATA49 na [UFBA](https://www.ufba.br/). Essa disciplina, lecionada no primeiro semestre de 2023, tem como foco a resolução de problemas simples utilizando a linguagem assembly.  
