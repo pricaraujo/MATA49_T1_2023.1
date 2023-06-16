@@ -78,6 +78,8 @@ O desenvolvimento ocorre em equipes, seguindo um cronograma determinado em sala 
 	
 [1] Intel Corporation. (2023). Intel 64 and IA-32 Architectures Software Developer's Manual. Volume 1: Basic Architecture. Santa Clara, CA: Intel Corporation. Disponível em: https://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-software-developer-manual-325462.html. Acesso em: 5 de junho de 2023.
 
+
+
 [2] NASM. The Netwide Assembler (NASM) Documentation. Version 2.16.01. Available at: https://www.nasm.us/xdoc/2.16.01/nasmdoc.pdf. Accessed on June 16, 2023.
 
 	
