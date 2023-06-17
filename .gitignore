@@ -1,0 +1,38 @@
+# Ignore compiled object files and executables
+*.o
+*.out
+
+# Ignore compiled binaries
+bin/
+
+# Ignore build artifacts
+build/
+
+# Ignore generated documentation
+docs/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore log files
+*.log
+
+# Ignore dependencies and packages
+node_modules/
+vendor/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+*.bak
