@@ -68,6 +68,8 @@ O desenvolvimento ocorre em equipes, seguindo um cronograma determinado em sala 
 - [Fernando Schettini](https://github.com/FernandoSchett).
 - [Gabriel Sizinio](https://github.com/gabsizinio).
 - [Caio Gomes de Mello](https://github.com/caiogmello).
+- [Lucas Lima](https://github.com/LucasDSL)
+- [Joab Guimarães](https://github.com/joabpgb)
 - [seunome](seu_link).
 
 ## Licensa 📜:

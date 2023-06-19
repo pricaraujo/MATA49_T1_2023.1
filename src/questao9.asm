@@ -3,12 +3,12 @@
 ;; três lados do triângulo, por exemplo, l1, l2 e l3. E
 ;; verifique se o triângulo é equilátero, isósceles, ou
 ;; escaleno
-;; Grupo: Lucas dos Santos Lima e Joab Guimarães
+;; Grupo: Lucas dos Santos Lima (220215279) e Joab Guimarães (218119821)
+;; Script para rodar: nasm questao9.asm -f elf64 && gcc -no-pie -o cod questao9.o && ./cod
 section .data
     message_lado1 db "Insira o tamanho do primeiro lado: ",10,0
     message_lado2 db "Insira o tamanho do segundo lado: ",10,0
     message_lado3 db "Insira o tamanho do terceiro lado: ",10,0
-    num db "%d",10,0
     equilatero db "Equilatero",10,0
     escaleno db "Escaleno",10,0
     isosceles db "Isosceles",10,0
@@ -86,35 +86,36 @@ main:
     mov rax, 0
     call scanf
 
-    xor rsi, rsi 
-    xor rdi, rdi 
+    ; Verificando se há lados diferentes,
+    ; caso sim, verificar as outras combinações de 
+    ; lado para ver se ele é isosceles, pois sabe-se que não será equilatero
+    mov al, [lado_1]
+    cmp al, [lado_2]
+    jne check_isosceles
 
-    ; Verificando se é equilátero
-    ; Caso os dois primeiros lados sejam iguais
-    ; ir parar check_equilatero
-    mov rax, [lado_1]
-    mov r9, [lado_2]
-    cmp rax, r9
-    je check_equilatero
+    mov al, [lado_1]
+    cmp al, [lado_3]
+    jne check_isosceles
 
-    ; Caso l1 e l3 sejam iguais, mas l1 e l2 sejam diferentes, 
-    ; sabemos que ele é isosceles
-    mov rax, [lado_1]
-    mov r9, [lado_3]
-    cmp rax, r9
+    ;; Será equilátero caso l1 == l2 && l1 == l3, que implica l2 == l3
+    jmp print_equilatero
+
+;; Verificar se há alguma combinação de lados iguais 
+;; para que seja isosceles, se não houver sabe-se que é escaleno
+check_isosceles:
+    mov al, [lado_1]
+    cmp al, [lado_2]
     je print_isosceles
 
-    jmp print_escaleno
+    mov al, [lado_1]
+    cmp al, [lado_3]
+    je print_isosceles
 
-; Verificar se os lados 1 e 3 são iguais
-; Caso sejam, printar que é equilatero 
-; Caso não, é isosceles
-check_equilatero:
-    mov rax, [lado_1]
-    mov r9, [lado_3]
-    cmp rax, r9
-    je print_equilatero
-    jmp print_isosceles
+    mov al, [lado_2]
+    cmp al, [lado_3]
+    je print_isosceles
+    
+    jmp print_escaleno
 
 end: 
     mov rax, 60
