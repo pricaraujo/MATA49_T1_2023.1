@@ -1,3 +1,4 @@
+;Luísa Coelho 222115794, Lucas Teixeira Borges 222115795
 section .data
     result db "%d", 0
     input db "%d", 0
