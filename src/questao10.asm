@@ -10,6 +10,12 @@
 ;; | nasm -g -f elf64 -F dwarf main.asm -o triangulo.o |
 ;; | gcc triangulo.o -o triangulo -lm -no-pie -m64     |
 ;; -----------------------------------------------------
+;; | Problema:                                         |
+;; | Escreva um programa em assembly que leia três     |
+;; | pontos, calcule a distância entre os pontos e,    |
+;; | teste se: o triângulo é equilátero, isósceles, ou |
+;; | escaleno.                                         |
+;; -----------------------------------------------------
 
 section .data
     p1text db "Insira o primeiro ponto (x1, y1): ",0
