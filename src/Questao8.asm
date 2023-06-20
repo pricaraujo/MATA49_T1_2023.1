@@ -1,7 +1,7 @@
 ;Questao 8
 ;Objetivo do código: criar uma sub-rotina que ordene em ordem crescente os elementos de um vetor de tamanho n
 ;Tipo de Sort usado: Bubble Sort
-;Alunos: Joao Vitor Gagliano de Oliveira, Regi Silva, Pedro Elias
+;Alunos: Joao Vitor Gagliano de Oliveira(221119590), Regi Silva(219217081), Pedro Elias(218120030)
 
 
 ;Declaramos funcoes externas
