@@ -1,5 +1,5 @@
 ; Questão 7: Leia a idade de uma pessoa expressa em anos, meses e dias e escreva somente em dias.
-; Equipe: Yan Brandão, João Gabriel Lofiego, João Soares
+; Equipe: Yan Brandão: 221215981 , João Gabriel Lofiego: 221215977, João Soares: 221215982
 
 global main
 extern printf
@@ -23,7 +23,7 @@ section .data
     
 section .text
 main:
-    ;Padrao de comeco, n entendi direito, mas sem isso nao roda
+    ;Padrao de comeco, configuracao da pilha
     push rbp
     mov rbp, rsp
 
