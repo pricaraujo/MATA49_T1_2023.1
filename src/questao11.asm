@@ -4,7 +4,6 @@
 ; responda mostrando qual a porcentagem que a outra é
 ; mais baixa enquanto a diferença for menor que 40%.
 ;Integrantes: Breno Cupertino, Carlos Melo, Thiago Seixas
-
 section .data
 str0        db  "Digite a primeira altura em cm",10,0  ; Mensagem para solicitar a primeira altura
 str1        db  "Digite a segunda altura em cm",10,0  ; Mensagem para solicitar a segunda altura
